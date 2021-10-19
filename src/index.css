@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 20px;
+  font: 15px/1.6 "Hind", sans-serif;
+  font-weight: 400;
+}
+#imgOne {
+  height: 500px;
+  position: absolute;
+  top: 8%;
+  left: calc(27% - 165px);
+}
+#dpimg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#profile-name {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+  top: 62%;
+  left: calc(20% - 165px);
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+/* .dp-container {
+  display: flex;
+  flex-direction: row;
+} */
+.profile-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+  display: inline-flex;
+}
+
+.button {
+  font-size: 12px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  margin: 5px;
+  box-shadow: 4px 2px 4px #e2e2e2;
+  background: #f3f3f3;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+}
+
+.reaction-container {
+  border: 2px solid #707070;
+  background-color: #edf5ff;
+  padding-top: 15px;
+  border-radius: 24px;
+  width: 70px;
+  height: 40px;
+  /* padding-top: 8px; */
+  margin-top: 13px;
+  margin-left: 6px;
+  padding: 6px 0px 2px 8px;
+}
+.border {
+  border: 2px solid #0f62fe;
+}
+
+.inactive {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+
+.like {
+  color: #3498db;
+}
+
+.love {
+  color: #e74c3c;
+}
+
+.haha {
+  color: #f1c40f;
+}
+
+.yay {
+  color: #1abc9c;
+}
+
+.sad {
+  color: #95a5a6;
+}
+
+.wow {
+  color: #8e44ad;
+}
+
+.angry {
+  color: #c0392b;
+}
+
+.button-icon {
+  width: 15px;
+  vertical-align: middle;
+  margin-right: 12px;
 }
