@@ -34,7 +34,7 @@ export default function EmojiApp() {
         return arr;
     }
     return (
-        <div className="container">
+        <div >
             <div className="buttons">
                 {active &&
 
